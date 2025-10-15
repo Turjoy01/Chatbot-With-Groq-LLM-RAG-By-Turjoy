@@ -191,5 +191,27 @@ DUMMYJSON_API_URL=https://dummyjson.com/products
 - Color-coded status indicators
 - Timestamps for each interaction
 
+### For Chatbot Command Use-
+1. Product Information:
+"Tell me about Kiwi"
+"What is the price of mango?"
+"What are the reviews for the iPhone?"
+"Do you have any laptops?"
+2. Product Category or Type:
+"What electronics do you have?"
+"Show me all products in the fashion category."
+"Can you list products with ratings above 4?"
+3. Price and Discounts:
+"How much does the Samsung Galaxy cost?"
+"Is there a discount on any shoes?"
+"What is the price of the cheapest product?"
+4. Features and Specifications:
+"What are the features of the iPhone?"
+"Tell me about the specifications of the tablet."
+"How long is the warranty for the smartwatch?"
+5. Product Recommendations:
+"What are the top-rated products?"
+"Which products are bestsellers?"
+
 ---
-**Enjoy chatting with My AI-powered product assistant Chatbot**
+**Enjoy chatting with My AI-powered product assistant Rag Chatbot**
