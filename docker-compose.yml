@@ -1,0 +1,32 @@
+services:
+  backend:
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - GROQ_API_KEY=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
+      - DUMMYJSON_API_URL=https://dummyjson.com/products
+    volumes:
+      - ./server:/app
+    networks:
+      - chatbot-network
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: ../Dockerfile.frontend
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    networks:
+      - chatbot-network
+
+networks:
+  chatbot-network:
+    driver: bridge
