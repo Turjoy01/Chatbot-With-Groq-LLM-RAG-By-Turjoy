@@ -1,6 +1,6 @@
- Product Chatbot with Groq AI
+Turjoys Rag Chatbot with Groq AI
 
-A full-stack intelligent chatbot application that helps users find and learn about products from the DummyJSON API using Groq's LLM (llama-3.3-70b-versatile model). The application features a modern chat interface and automatic API documentation.
+A full-stack intelligent Rag chatbot application that helps users find and learn about products from the DummyJSON API using Groq's LLM (llama-3.3-70b-versatile model). The application features a modern chat interface and automatic API documentation(Swagger).
 
 ## Features
 
@@ -113,8 +113,6 @@ Once the containers are running, open your browser and navigate to:
 3. Request body (your message)
 4. Response body (chatbot's reply)
 5. Status code
-
-
 
 
 
