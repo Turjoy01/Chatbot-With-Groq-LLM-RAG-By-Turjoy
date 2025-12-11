@@ -123,7 +123,7 @@ Once the containers are running, open your browser and navigate to:
 The project uses the following environment variables (already configured in `server/.env`):
 
 ```plaintext
-GROQ_API_KEY=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
+GROQ_API_KEY=
 DUMMYJSON_API_URL=https://dummyjson.com/products
 ```
 
